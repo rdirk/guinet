@@ -4,9 +4,7 @@ import os
 import shutil
 import mysql.connector
 
-# fungsi untuk delete direktori
-# del_dir = r'C:\Users\rifky\OneDrive\Documents\H2\Python\gui paramiko\hasil-backup'
-# shutil.rmtree(del_dir)
+
 # Fungsi untuk membuat direktori jika belum ada
 def buat_direktori(path):
     if not os.path.exists(path):
